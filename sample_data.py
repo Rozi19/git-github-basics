@@ -26,3 +26,14 @@ print("Number of characters in your name:", len(student_name))
 print("\nSLICING")
 print("First two characters of your name:", student_name[:2])
 print("First three characters of your favorite language:", favorite_language[:3])
+
+# 6. Negative Indexing and Slicing
+
+text = "Python Programming"
+
+print("Original text:", text)
+print("Last character:", text[-1])
+print("Second last character:", text[-2])
+print("Last three characters:", text[-3:])
+print("All except the last character:", text[:-1])
+print("Reverse text:", text[::-1])
