@@ -37,3 +37,13 @@ print("Second last character:", text[-2])
 print("Last three characters:", text[-3:])
 print("All except the last character:", text[:-1])
 print("Reverse text:", text[::-1])
+
+# 7. Basic Arithmetic
+
+num1 = 10
+num2 = 5
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
